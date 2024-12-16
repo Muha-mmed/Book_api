@@ -30,6 +30,8 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+.packages
+pubspec.lock
 
 # Symbolication related
 app.*.symbols
@@ -41,3 +43,29 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Symbolication and Obfuscation related
+app.*.symbols
+app.*.map.json
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+android/.gradle/
+android/app/build/
+android/app/*.iml
+
+# Web
+web/.dart_tool/
+web/build/
+
+# Temporary files
+*.tmp
+*.swp
