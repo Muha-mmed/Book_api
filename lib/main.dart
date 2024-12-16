@@ -95,8 +95,6 @@ class BookTile extends StatelessWidget {
       leading: Image.network(
         book.cover,
         fit: BoxFit.cover,
-        width: 50,
-        height: 50,
         errorBuilder: (context, error, stackTrace) {
           return const Icon(Icons.image_not_supported);
         },
